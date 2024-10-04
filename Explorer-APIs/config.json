@@ -1,0 +1,51 @@
+// config file for quorum explorer
+{
+    "algorithm": "qbft",
+    "bootnodes": [
+      {
+        "enode": "enode://98ee46c869f1a1c7436550137bdbc1c78ce05f35de150b47d43dc70e7105466078bb012768cf10a0ed730b94100140755db5fccb27e77f30e9fea055b6e25bbb@127.0.0.1:30300"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "node-0",
+        "client": "goquorum",
+        "rpcUrl": "http://127.0.0.1:22000",
+        "wsUrl": "ws://127.0.0.1:32000",
+        "role": "node",
+        "enode": "enode://98ee46c869f1a1c7436550137bdbc1c78ce05f35de150b47d43dc70e7105466078bb012768cf10a0ed730b94100140755db5fccb27e77f30e9fea055b6e25bbb@127.0.0.1:30300"
+      },
+      {
+        "name": "node-1",
+        "client": "goquorum",
+        "rpcUrl": "http://127.0.0.1:22001",
+        "wsUrl": "ws://127.0.0.1:32001",
+        "role": "validator",
+        "enode": "enode://b8576363a48534537a6d634535f2a171490a2e21b558017e7e420030ba70aeb325a61dde0c6167d2ffd5951f948278c6897445527c9a408515f0c6eace68fdc7@127.0.0.1:30301"
+      },
+      {
+        "name": "node-2",
+        "client": "goquorum",
+        "rpcUrl": "http://127.0.0.1:22002",
+        "wsUrl": "ws://127.0.0.1:32002",
+        "role": "validator",
+        "enode": "enode://e56765b78d6ccf261155e9ccc5270e62b1f27b206813e7a93b8fdb3e3828664678bfa8c8b2a285c28daa1e8d17f562c9be0ca2ba8495de9dc36086e3c2189df8@127.0.0.1:30302"
+      },
+      {
+        "name": "node-3",
+        "client": "goquorum",
+        "rpcUrl": "http://127.0.0.1:22003",
+        "wsUrl": "ws://127.0.0.1:32003",
+        "role": "validator",
+        "enode": "enode://0e28f59e5dcca58b6e1264c2c70df3d869eead2715264c37c7e8bcc6fb29848fb84cdb345605d9c85b7c4bfa0c883b51d7b2e27ba4d539a83799b07a8cdda4be@127.0.0.1:30303"
+      },
+      {
+        "name": "node-4",
+        "client": "goquorum",
+        "rpcUrl": "http://127.0.0.1:22004",
+        "wsUrl": "ws://127.0.0.1:32004",
+        "role": "validator",
+        "enode": "enode://d044e379e11330a92d9588df3550031d065dbd9fd8fce6f85c49b5f223146932c14d47403e72f4841722a430345de89e3b2a587b83e86e5cd9fb380a75168e53@127.0.0.1:30304"
+      }
+    ]
+  }
