@@ -1,0 +1,13 @@
+*venv
+*__pycache__
+
+storeConsent.sol contract address = 0x3bfd16efa4abddcfb0bb15fe5772a9f78b4b470a
+txn_hash = 0x63095704cc970c567540761c4d3dab7fbe6c31c5fec68d6f502fc8d53e13bf44
+block_number = 531
+block_hash = 0x66ca6b683fa9a0cdfd2a1ce8c5f61b17c595e62ea6945159a85a313c6d9d58c5
+
+AddPurpose.sol
+constract Address = 0xd9594f338c490447211800f0fad1e9b619d9db60
+txn_hash = 0x2d1d30a9bf3c804f70cc47ba28751d444bb15c2f65891198f90048770cdd9893
+block_number = 567
+block_hash = 0x87df7ffa7d5ce589e164faea7ae2fad0573ffed2380a5a4ec7aa31d3aaeb989b
